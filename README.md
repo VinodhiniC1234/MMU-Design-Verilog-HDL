@@ -99,15 +99,9 @@ MMU-Design-Verilog-HDL
 ├── simulation/
 │   └── output.txt
 │
-├── waveforms/
-│   └── mmu_waveform.png
-│
 ├── reports/
 │
 ├── images/
-│
-├── docs/
-│   └── project_report.md
 │
 ├── README.md
 │
