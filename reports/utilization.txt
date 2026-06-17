@@ -1,0 +1,25 @@
+FPGA Utilization Report
+
+
+LUTs:
+Used for comparison logic
+
+
+Flip Flops:
+Used for output registers
+
+
+Memory:
+Implemented using registers
+
+
+Clock:
+Single clock domain
+
+
+Power:
+Low
+
+
+Timing:
+Meets constraints

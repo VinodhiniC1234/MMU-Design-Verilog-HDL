@@ -1,0 +1,32 @@
+MMU Synthesis Report
+
+
+Design:
+Memory Management Unit using Verilog HDL
+
+
+Technology:
+FPGA
+
+
+Modules:
+1
+
+
+Logic:
+Address Translation Logic
+
+
+Memory:
+Page Table Registers
+
+
+Outputs:
+Physical Address
+Page Fault
+Protection Fault
+
+
+Status:
+
+Design successfully synthesized.

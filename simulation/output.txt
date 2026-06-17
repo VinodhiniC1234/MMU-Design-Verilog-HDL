@@ -1,0 +1,127 @@
+=================================================
+MMU DESIGN USING VERILOG HDL
+SIMULATION OUTPUT
+=================================================
+
+
+Test Case 1 : Valid Read Translation
+
+Virtual Address : 0035
+Page Number    : 00
+Offset         : 35
+
+Page Table:
+Frame Number   : 05
+Valid Bit      : 1
+Read Permission: 1
+Write Permission:1
+
+
+Output:
+
+Physical Address : 0535
+
+Page Fault       : 0
+Protection Fault : 0
+Translation Valid: 1
+
+
+Result:
+PASS
+=================================================
+
+
+
+Test Case 2 : Write Permission Failure
+
+
+Virtual Address : 0135
+
+Operation       : WRITE
+
+
+Page Number     : 01
+
+Valid Bit       : 1
+Write Permission: 0
+
+
+Output:
+
+Physical Address : 0000
+
+Page Fault       : 0
+
+Protection Fault : 1
+
+Translation Valid: 0
+
+
+Result:
+PASS
+
+=================================================
+
+
+
+Test Case 3 : Invalid Page Access
+
+
+Virtual Address : 0235
+
+
+Page Number : 02
+
+
+Valid Bit : 0
+
+
+Output:
+
+Physical Address : 0000
+
+Page Fault       : 1
+
+Protection Fault : 0
+
+Translation Valid: 0
+
+
+Result:
+PASS
+
+=================================================
+
+
+
+Test Case 4 : Valid Write Translation
+
+
+Virtual Address : 0335
+
+Operation : WRITE
+
+
+Frame Number : 20
+
+
+Output:
+
+Physical Address : 1435
+
+Page Fault       : 0
+
+Protection Fault : 0
+
+Translation Valid: 1
+
+
+Result:
+PASS
+
+
+=================================================
+
+Simulation Completed Successfully
+
+=================================================
